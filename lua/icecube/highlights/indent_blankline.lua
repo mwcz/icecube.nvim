@@ -1,4 +1,4 @@
-local c = require("zenburn.palette")
+local c = require("icecube.palette")
 return {
     IndentBlanklineChar = { fg=c.LineNr.fg },
     IndentBlanklineSpaceChar = { fg=c.SignColumn.fg },

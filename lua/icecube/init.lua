@@ -1,8 +1,8 @@
--- Zenburn colorscheme for neovim
+-- Icecube colorscheme for neovim
 
 local M = {}
 
-M.name = "zenburn.nvim"
+M.name = "icecube.nvim"
 
 local set_hl = vim.api.nvim_set_hl
 local set_hl_ns = vim.api.nvim__set_hl_ns or vim.api.nvim_set_hl_ns
@@ -29,7 +29,7 @@ M.setup = function()
     vim.o.background = "dark"
     vim.o.termguicolors = true
 
-    local all_highlights = require("zenburn.highlights")
+    local all_highlights = require("icecube.highlights")
     for _, highlights in ipairs(all_highlights) do
         M.set_highlights(highlights)
     end

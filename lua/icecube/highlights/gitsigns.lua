@@ -1,4 +1,4 @@
-local c = require("zenburn.palette")
+local c = require("icecube.palette")
 return {
     GitSignsAdd = { fg=c.Comment.fg },
     GitSignsAddNr = { fg=c.Comment.fg },

@@ -1,4 +1,4 @@
-local c = require("zenburn.palette")
+local c = require("icecube.palette")
 return {
 	CmpItemAbbrMatch = { fg=c.Number.fg },
 	CmpItemAbbrMatchFuzzy = { fg=c.Number.fg },

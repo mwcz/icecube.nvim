@@ -1,4 +1,4 @@
-local c = require("zenburn.palette")
+local c = require("icecube.palette")
 return {
 	NvimTreeSymlink = c.Operator,
 	NvimTreeFolderName = c.Number,
