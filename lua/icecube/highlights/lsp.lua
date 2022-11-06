@@ -10,5 +10,3 @@ return {
     LspInfoTip = c.Comment,
     LspInfoTitle = c.Title,
 }
-
-
