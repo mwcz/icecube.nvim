@@ -282,7 +282,7 @@ return {
     StatusLineTerm = { bg="#818596", fg="#17171b", },
     StatusLineTermNC = { bg="#0f1117", fg="#3e445e", },
     StorageClass = { fg="#84a0c6", },
-    String = { fg="#b4be82", },
+    String = { fg="#a0bf82", },
     Structure = { fg="#84a0c6", },
     Substitute = { bg="#e4aa80", fg="#392313", },
     SyntasticErrorSign = { bg="#1e2132", fg="#e27878", },
