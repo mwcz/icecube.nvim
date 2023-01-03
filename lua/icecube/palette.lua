@@ -111,7 +111,7 @@ return {
     Question = { fg="#a5bf82", },
     QuickFixLine = { bg="#272c42", fg="#cccccc", },
     Repeat = { fg="#84a0c6", },
-    Search = { bg="#e4aa80", fg="#392313", },
+    Search = {  bg="#444b71", },
     SignColumn = { bg="#1e2132", fg="#444b71", },
     SignifySignAdd = { bg="#1e2132", fg="#a5bf82", },
     SignifySignChange = { bg="#1e2132", fg="#89b8c2", },
