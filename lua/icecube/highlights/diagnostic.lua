@@ -5,6 +5,11 @@ return {
     DiagnosticInfo = { fg=c.Identifier.fg },
     DiagnosticHint = { fg=c.Comment.fg },
 
+    DiagnosticUnderlineError = { underline=false },
+    DiagnosticUnderlineWarn  = { underline=false },
+    DiagnosticUnderlineInfo  = { underline=false },
+    DiagnosticUnderlineHint  = { underline=false },
+
     -- Unsure if these will be needed
     -- DiagnosticFloatingError = { fg=c.Error.fg, },
     -- DiagnosticFloatingHint = { bg="#3d425b", fg="#cccccc", },

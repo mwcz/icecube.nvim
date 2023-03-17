@@ -216,7 +216,7 @@ return {
     ToolbarLine = { bg="#0f1117", fg="#3e445e", },
     Type = { fg="#a093c7", },
     Typedef = { fg="#84a0c6", },
-    Underlined = { fg="#84a0c6", },
+    Underlined = { fg="#84a0c6", underline=false },
     VertSplit = { bg="#0f1117", fg="#0f1117", },
     Visual = { bg="#272c42", },
     VisualNOS = { bg="#272c42", },
