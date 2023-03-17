@@ -19,7 +19,7 @@ return {
     TelescopePreviewLink = { fg="#a5bf82", },
     TelescopePreviewMatch = { bg="#e4aa80", fg="#392313", },
     TelescopePreviewMessage = { bg=ts_bg, fg="#cccccc", },
-    TelescopePreviewMessageFillchar = { bg=ts_bg, fg="#cccccc", },
+    TelescopePreviewMessageFillchar = { bg=ts_bg, fg="#2b3354", },
     TelescopePreviewNormal = { bg=ts_bg, fg="#cccccc", },
     TelescopePreviewPipe = { fg="#a093c7", },
     TelescopePreviewRead = { fg="#a093c7", },
