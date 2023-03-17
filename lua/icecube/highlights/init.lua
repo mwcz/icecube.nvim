@@ -5,6 +5,7 @@ return {
     require("icecube.highlights.indent_blankline"),
     require("icecube.highlights.nvim-tree"),
     require("icecube.highlights.treesitter"),
+    require("icecube.highlights.telescope"),
     require("icecube.highlights.symbols-outline"),
     require("icecube.highlights.trouble"),
     require("icecube.highlights.nvim-cmp"),
