@@ -1,5 +1,6 @@
 local ts_bg = "#1e2132"
 local prompt_bg = "#2b3354"
+local results_bg = "#21263b"
 
 return {
     TelescopeBorder = { bg=ts_bg, fg=ts_bg, },
@@ -34,7 +35,7 @@ return {
     TelescopePromptNormal = { bg=prompt_bg, fg="#cccccc", },
     TelescopePromptPrefix = { fg="#84a0c6", },
     TelescopePromptTitle = { bg="#84a0c6", fg=prompt_bg, },
-    TelescopeResultsBorder = { bg=ts_bg, fg=ts_bg, },
+    TelescopeResultsBorder = { bg=results_bg, fg=results_bg, },
     TelescopeResultsClass = { fg="#84a0c6", },
     TelescopeResultsComment = { fg="#6b7089", },
     TelescopeResultsConstant = { fg="#a093c7", },
@@ -46,13 +47,13 @@ return {
     TelescopeResultsFunction = { fg="#84a0c6", },
     TelescopeResultsIdentifier = { fg="#89b8c2", },
     TelescopeResultsLineNr = { bg="#1e2132", fg="#444b71", },
-    TelescopeResultsNormal = { bg=ts_bg, fg="#cccccc", },
+    TelescopeResultsNormal = { bg=results_bg, fg="#cccccc", },
     TelescopeResultsNumber = { fg="#a093c7", },
     TelescopeResultsOperator = { fg="#84a0c6", },
     TelescopeResultsSpecialComment = { fg="#a5bf82", },
-    TelescopeResultsTitle = { bg=ts_bg, fg=ts_bg, },
+    TelescopeResultsTitle = { bg=results_bg, fg=results_bg, },
     TelescopeResultsVariable = { fg="#a5bf82", },
-    TelescopeSelection = { bg="#272c42", },
+    TelescopeSelection = { bg=prompt_bg, },
     TelescopeSelectionCaret = { bg="#272c42", },
     TelescopeTitle = { bg=ts_bg, fg="#cccccc", },
 }
