@@ -1,9 +1,9 @@
 local c = require("icecube.palette")
 return {
-    DiagnosticError = { fg=c.Error.fg },
-    DiagnosticWarn = { fg=c.PreProc.fg },
-    DiagnosticInfo = { fg=c.Identifier.fg },
-    DiagnosticHint = { fg=c.Comment.fg },
+    DiagnosticError = { fg=c.Error.fg, bg=c.SignColumn.bg},
+    DiagnosticWarn = { fg=c.PreProc.fg, bg=c.SignColumn.bg},
+    DiagnosticInfo = { fg=c.Identifier.fg, bg=c.SignColumn.bg},
+    DiagnosticHint = { fg=c.Comment.fg, bg=c.SignColumn.bg},
 
     DiagnosticUnderlineError = { underline=false },
     DiagnosticUnderlineWarn  = { underline=false },
