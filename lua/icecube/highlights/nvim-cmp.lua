@@ -1,8 +1,8 @@
 local c = require("icecube.palette")
 return {
-	CmpItemAbbrMatch = { fg=c.Number.fg },
-	CmpItemAbbrMatchFuzzy = { fg=c.Number.fg },
-	CmpItemKind = { fg=c.Delimiter.fg },
+	CmpItemAbbrMatch = { fg = c.Number.fg },
+	CmpItemAbbrMatchFuzzy = { fg = c.Number.fg },
+	CmpItemKind = { fg = c.Delimiter.fg },
 	-- CmpItemKindDefault = { fg=c.Keyword.fg },
 	-- CmpItemMenu = c.Pmenu,
 	-- CmpItemKindDefault = c.Pmenu,
