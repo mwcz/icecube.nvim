@@ -1,5 +1,3 @@
-local border_fg = grey500
-
 local palette = {
 	black100 = "#0f1117",
 	black200 = "#161821",
@@ -150,8 +148,8 @@ return {
 	NonText = { fg = palette.mightnightblue600 },
 	Normal = { bg = palette.black200, fg = palette.grey800 },
 	NormalFloat = { bg = palette.slateblue100, fg = palette.grey800 },
-	Number = { fg = palette.orange500 },
 	Operator = { fg = palette.slateblue400 },
+	Number = { fg = palette.orange500 },
 	Pmenu = { bg = palette.midnightblue400, fg = palette.grey800 },
 	PmenuSbar = { bg = palette.slateblue200 },
 	PmenuSel = { bg = palette.slateblue600, fg = palette.white800 },
