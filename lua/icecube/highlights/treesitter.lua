@@ -1,4 +1,6 @@
 local c = require("icecube.palette")
+local colors = require("icecube.colors")
+local color_ops = require("icecube.color-ops")
 return {
 	TSNone = {},
 	TSError = {},
@@ -41,7 +43,7 @@ return {
 	TSKeywordOperator = { fg = c.Operator.fg },
 	TSKeywordReturn = { fg = c.Float.fg },
 	TSException = { fg = c.Exception.fg },
-	["@type"] = { fg = c.Keyword.fg },
+	["@type"] = { fg = colors.skyblue },
 	TSType = { fg = c.Delimiter.fg },
 	TSTypeBuiltin = { fg = c.Delimiter.fg },
 	TSInclude = { fg = c.Include.fg },

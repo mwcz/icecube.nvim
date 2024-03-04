@@ -92,7 +92,7 @@ return {
 	LineNr = { bg = palette.midnightblue400, fg = palette.slateblue300 },
 	LineNrAbove = { bg = palette.midnightblue400, fg = palette.slateblue300 },
 	LineNrBelow = { bg = palette.midnightblue400, fg = palette.slateblue300 },
-	Macro = { fg = palette.sunsetpurple },
+	Macro = { fg = palette.sunsetpurple, bold = true },
 	MatchBackground = { bg = palette.midnightblue400 },
 	MatchParen = { bg = palette.slateblue200, fg = palette.white1000 },
 	MatchParenCur = { bg = palette.slateblue200, fg = palette.white1000 },

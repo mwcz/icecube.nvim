@@ -1,5 +1,6 @@
 local c = require("icecube.palette")
 return {
+	["@lsp.mod.constant.rust"] = c.Constant,
 	LspReferenceText = c.IncSearch,
 	LspReferenceRead = c.IncSearch,
 	LspReferenceWrite = c.IncSearch,
