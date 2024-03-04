@@ -36,7 +36,6 @@ return {
 	slateblue800 = "#b7c5c8",
 	slateblue900 = "#cdd1e6",
 	sunsetpurple = "#a093c7",
-	tmp_macro_color = "#ac93c7",
 	tan1000 = "#d4d5db",
 	tan500 = "#c2b689",
 	tan800 = "#dcdccc",
