@@ -1,7 +1,8 @@
 local c = require("icecube.palette")
+local colors = require("icecube.colors")
 return {
 	DiagnosticError = { fg = c.Error.fg, bg = c.SignColumn.bg },
-	DiagnosticWarn = { fg = c.PreProc.fg, bg = c.SignColumn.bg },
+	DiagnosticWarn = { fg = colors.orange500, bg = c.SignColumn.bg },
 	DiagnosticInfo = { fg = c.Identifier.fg, bg = c.SignColumn.bg },
 	DiagnosticHint = { fg = c.Comment.fg, bg = c.SignColumn.bg },
 

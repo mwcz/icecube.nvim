@@ -19,6 +19,7 @@ return {
 	TSNumber = { fg = c.Number.fg },
 	TSBoolean = { fg = c.Boolean.fg },
 	TSFloat = { fg = c.Float.fg },
+	["@number.float"] = { fg = c.Float.fg },
 	TSFunction = { fg = c.Function.fg },
 	TSFuncBuiltin = { fg = c.Special.fg },
 	TSFuncMacro = { fg = c.Macro.fg },
@@ -36,10 +37,11 @@ return {
 	TSLabel = { fg = c.Label.fg },
 	TSOperator = { fg = c.Operator.fg },
 	TSKeyword = { fg = c.Keyword.fg },
-	TSKeywordFunction = { fg = c.Keyword.fg },
+	["@keyword.function"] = { fg = c.Keyword.fg },
 	TSKeywordOperator = { fg = c.Operator.fg },
 	TSKeywordReturn = { fg = c.Float.fg },
 	TSException = { fg = c.Exception.fg },
+	["@type"] = { fg = c.Keyword.fg },
 	TSType = { fg = c.Delimiter.fg },
 	TSTypeBuiltin = { fg = c.Delimiter.fg },
 	TSInclude = { fg = c.Include.fg },
@@ -52,6 +54,7 @@ return {
 	TSStructure = { fg = c.Structure.fg },
 	TSTag = { fg = c.Tag.fg },
 	TSTagDelimiter = { fg = c.Tag.fg },
+	["@constructor.lua"] = c.Delimiter, -- this belongs elsewhere but I don't want a dedicated Lua file yet
 }
 
 -- TSAttribute = { fg="#b4be82", },

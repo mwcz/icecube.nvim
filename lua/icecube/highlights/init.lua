@@ -8,6 +8,7 @@ return {
 	require("icecube.highlights.telescope"),
 	require("icecube.highlights.symbols-outline"),
 	require("icecube.highlights.trouble"),
+	require("icecube.highlights.markdown"),
 	require("icecube.highlights.nvim-cmp"),
 	require("icecube.highlights.which-key"),
 	require("icecube.highlights.leap"),
