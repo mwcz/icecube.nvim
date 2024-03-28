@@ -75,7 +75,7 @@ return {
 	Error = { bg = palette.black200, fg = palette.salmon },
 	ErrorMsg = { bg = palette.black200, fg = palette.salmon },
 	Exception = { fg = palette.skyblue },
-	Float = { fg = palette.yellow },
+	Float = { fg = palette.yellow300 },
 	FloatBorder = { bg = palette.slateblue100, fg = palette.grey500 },
 	FloatTitle = { fg = palette.grey800 },
 	FoldColumn = { bg = palette.midnightblue400, fg = palette.slateblue300 },

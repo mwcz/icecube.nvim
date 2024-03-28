@@ -16,6 +16,7 @@ return {
 	mightnightblue600 = "#272c42",
 	orange500 = "#e2a478",
 	paleyellow = "#fff099",
+	yellow300 = "#d8bd58",
 	yellow = "#ffd752",
 	peach600 = "#d2b2b2",
 	peach700 = "#dca3a3",

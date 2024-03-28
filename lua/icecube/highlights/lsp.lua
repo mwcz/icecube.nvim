@@ -1,6 +1,8 @@
 local c = require("icecube.palette")
+local colors = require("icecube.colors")
 return {
 	["@lsp.mod.constant.rust"] = c.Constant,
+	["@lsp.type.builtinType.rust"] = { fg = colors.skyblue },
 	LspReferenceText = c.IncSearch,
 	LspReferenceRead = c.IncSearch,
 	LspReferenceWrite = c.IncSearch,
