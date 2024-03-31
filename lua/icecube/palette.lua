@@ -1,4 +1,5 @@
 local palette = require("icecube.colors")
+local color_ops = require("icecube.color-ops")
 
 return {
 	ALEErrorSign = { bg = palette.midnightblue400, fg = palette.salmon },
@@ -63,9 +64,9 @@ return {
 	Delimiter = { fg = palette.slateblue400 },
 	DiffAdd = { bg = palette.seagreen200 },
 	LineCoveragePass = { bg = palette.seagreen200 },
-	DiffChange = { bg = palette.seagreen200, fg = palette.slateblue800 },
-	DiffDelete = { bg = palette.burgundy, fg = palette.peach600 },
-	DiffText = { bg = palette.seagreen400, fg = palette.grey800 },
+	DiffChange = { bg = palette.seagreen200 },
+	DiffDelete = { bg = palette.burgundy },
+	DiffText = { bg = palette.seagreen200 },
 	Directory = { fg = palette.teal600 },
 	EasyMotionShade = { fg = palette.slateblue200 },
 	EasyMotionTarget = { fg = palette.seagreen600 },
