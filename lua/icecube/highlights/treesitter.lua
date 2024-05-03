@@ -43,7 +43,7 @@ return {
 	TSKeywordOperator = { fg = c.Operator.fg },
 	TSKeywordReturn = { fg = c.Float.fg },
 	TSException = { fg = c.Exception.fg },
-	["@type"] = { fg = colors.skyblue },
+	["@type"] = { fg = colors.skyblue500 },
 	["@variable.builtin.rust"] = { fg = c.Normal.fg },
 	["@type.builtin.rust"] = { fg = colors.teal500 },
 	["@punctuation.special.rust"] = { fg = c.Delimiter.fg },
