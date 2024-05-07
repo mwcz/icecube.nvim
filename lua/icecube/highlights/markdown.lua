@@ -25,7 +25,7 @@ return {
 	-- ['@markup.raw.block']      = { link = '@comment' },               -- literal or verbatim text as a stand-alone block
 	["@markup.list"] = palette.Operator, -- list markers
 	["@markup.list.checked"] = { fg = colors.seagreen600 }, -- checked todo-style list markers
-	["@markup.list.unchecked"] = { fg = colors.salmon }, -- unchecked todo-style list markers
+	["@markup.list.unchecked"] = { fg = colors.salmon500 }, -- unchecked todo-style list markers
 	-- ['@tag']                   = { link = '@punctuation.delimiter' }, -- XML-style tag names (e.g. in XML, HTML, etc.)
 	-- ['@tag.attribute']         = { link = '@attribute' },             -- XML-style tag attributes
 	-- ['@tag.delimiter']         = { link = '@punctuation.delimiter' }, -- XML-style tag delimiters
