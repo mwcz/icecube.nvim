@@ -86,7 +86,7 @@ return {
 	GitGutterChange = { bg = palette.midnightblue400, fg = palette.teal600 },
 	GitGutterChangeDelete = { bg = palette.midnightblue400, fg = palette.teal600 },
 	GitGutterDelete = { bg = palette.midnightblue400, fg = palette.salmon500 },
-	Identifier = { fg = palette.grey800 },
+	Identifier = { fg = palette.white800 },
 	Include = { fg = palette.skyblue300 },
 	Keyword = { fg = palette.skyblue300 },
 	Label = { fg = palette.tan500 },
