@@ -46,7 +46,7 @@ return {
 	["@type"] = { fg = colors.skyblue300 },
 	["@variable.builtin.rust"] = { fg = c.Normal.fg },
 	["@function.macro.rust"] = { fg = c.Macro.fg },
-	["@type.builtin.rust"] = { fg = colors.teal500 },
+	["@type.builtin.rust"] = { fg = colors.skyblue300 },
 	["@punctuation.special.rust"] = { fg = c.Delimiter.fg },
 	TSType = { fg = c.Delimiter.fg },
 	TSTypeBuiltin = { fg = c.Delimiter.fg },

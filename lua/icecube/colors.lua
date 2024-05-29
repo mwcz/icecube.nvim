@@ -38,6 +38,5 @@ return {
 	tan900 = "#c4c7b5",
 	teal500 = "#7bb6bf",
 	teal600 = "#84cfcb",
-	teal800 = "#72dde9",
 	white800 = "#eff0f4",
 }
