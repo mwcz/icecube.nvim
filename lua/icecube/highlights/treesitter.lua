@@ -39,6 +39,7 @@ return {
 	TSLabel = { fg = c.Label.fg },
 	TSOperator = { fg = c.Operator.fg },
 	TSKeyword = { fg = c.Keyword.fg },
+	["@module"] = { fg = colors.skyblue300 },
 	["@keyword.function"] = { fg = c.Keyword.fg },
 	TSKeywordOperator = { fg = c.Operator.fg },
 	TSKeywordReturn = { fg = c.Float.fg },
