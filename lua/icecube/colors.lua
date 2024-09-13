@@ -6,7 +6,7 @@ return {
 	grey = "#9e9fa1",
 	grey300 = "#3f3f3f",
 	grey500 = "#818596",
-	grey800 = "#cccccc",
+	grey800 = "#c3c7cc",
 	hotpink = "#c072cb",
 	midnightblue400 = "#1e2132",
 	mightnightblue600 = "#272c42",
