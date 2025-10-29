@@ -1,16 +1,16 @@
 local c = require("icecube.palette")
 local colors = require("icecube.colors")
 return {
-	DiagnosticError = { fg = c.Error.fg, bg = c.SignColumn.bg },
-	DiagnosticWarn = { fg = colors.orange500, bg = c.SignColumn.bg },
-	DiagnosticInfo = { fg = c.Identifier.fg, bg = c.SignColumn.bg },
-	DiagnosticHint = { fg = c.Comment.fg, bg = c.SignColumn.bg },
+	DiagnosticError = { fg = c.Error.fg },
+	DiagnosticWarn = { fg = colors.orange500 },
+	DiagnosticInfo = { fg = c.Identifier.fg },
+	DiagnosticHint = { fg = c.Comment.fg },
 
 	DiagnosticUnderlineError = { underline = false },
 	DiagnosticUnderlineWarn = { underline = false },
 	DiagnosticUnderlineInfo = { underline = false },
 	DiagnosticUnderlineHint = { underline = false },
-	DiagnosticUnnecessary = { fg = c.Comment.fg, underline = true },
+	DiagnosticUnnecessary = { fg = c.Conceal.fg, underline = true },
 
 	-- Unsure if these will be needed
 	-- DiagnosticFloatingError = { fg=c.Error.fg, },

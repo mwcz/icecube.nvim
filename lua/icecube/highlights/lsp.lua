@@ -1,5 +1,6 @@
 local c = require("icecube.palette")
 local colors = require("icecube.colors")
+local color_ops = require("icecube.color-ops")
 return {
 	-- ["@lsp.mod.constant.rust"] = c.Constant,
 	-- ["@lsp.type.builtinType.rust"] = { fg = colors.teal500 },
@@ -15,5 +16,5 @@ return {
 	LspInfoList = c.Conditional,
 	LspInfoTip = c.Comment,
 	LspInfoTitle = c.Title,
-	LspInlayHint = c.Comment,
+	LspInlayHint = { fg = colors.teal600 },
 }

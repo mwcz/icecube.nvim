@@ -20,7 +20,7 @@ return {
 	salmon800 = "#ff6286",
 	seagreen300 = "#33403c",
 	seagreen600 = "#a9bf8b",
-	seagreen800 = "#79BD8F",
+	seagreen800 = "#79bd8b",
 	skyblue300 = "#84a0c6",
 	slateblue100 = "#2e313f",
 	slateblue200 = "#3d425b",
