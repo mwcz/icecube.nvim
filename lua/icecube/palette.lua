@@ -124,7 +124,7 @@ return {
 	SneakScope = { bg = palette.mightnightblue600, fg = palette.slateblue650 },
 	Special = { fg = palette.skyblue300 },
 	SpecialChar = { fg = palette.seagreen600 },
-	SpecialComment = { fg = palette.seagreen600 },
+	SpecialComment = { fg = palette.slateblue650 },
 	SpecialKey = { fg = palette.slateblue400 },
 	SpellBad = { bg = palette.black200, fg = palette.salmon500 },
 	StartifyBracket = { fg = palette.slateblue650 },
