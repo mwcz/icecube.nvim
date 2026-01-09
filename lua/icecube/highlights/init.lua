@@ -33,4 +33,5 @@ return {
 	require("icecube.highlights.trouble"),
 	require("icecube.highlights.which-key"),
 	require("icecube.highlights.yanky"),
+	require("icecube.highlights.rust"),
 }
