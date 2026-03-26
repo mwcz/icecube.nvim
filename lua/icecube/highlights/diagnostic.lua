@@ -10,7 +10,7 @@ return {
 	DiagnosticUnderlineWarn = { underline = false },
 	DiagnosticUnderlineInfo = { underline = false },
 	DiagnosticUnderlineHint = { underline = false },
-	DiagnosticUnnecessary = { fg = c.Conceal.fg, underline = true },
+	DiagnosticUnnecessary = { fg = c.Conceal.fg, bg = c.Conceal.bg, underline = false },
 
 	-- Unsure if these will be needed
 	-- DiagnosticFloatingError = { fg=c.Error.fg, },

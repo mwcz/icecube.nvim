@@ -19,6 +19,7 @@ return {
 	peach800 = "#ffcfaf",
 	salmon500 = "#e27878",
 	salmon800 = "#ff6286",
+	seagreen200 = "#222a2a",
 	seagreen300 = "#33403c",
 	seagreen600 = "#a9bf8b",
 	seagreen800 = "#79bd8b",

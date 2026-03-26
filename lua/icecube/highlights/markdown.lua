@@ -4,16 +4,24 @@ local color_ops = require("icecube.color-ops")
 
 return {
 	["@markup.strong"] = { bold = true },
-	["@markup.italic"] = { fg = colors.grey },
-	["@markup.heading.1"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, 20) },
-	["@markup.heading.2"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, 0) },
-	["@markup.heading.3"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, -20) },
-	["@markup.heading.4"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, -40) },
-	["@markup.heading.5"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, -60) },
-	["@markup.heading.6"] = { fg = color_ops.LightenDarkenColor(colors.skyblue300, -80) },
+	["@markup.italic"] = { fg = colors.slateblue300 },
+
+	["@markup.heading.1"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, 20) },
+	["@markup.heading.2"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, 0) },
+	["@markup.heading.3"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, -20) },
+	["@markup.heading.4"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, -40) },
+	["@markup.heading.5"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, -60) },
+	["@markup.heading.6"] = { bold = true, fg = color_ops.LightenDarkenColor(colors.skyblue300, -80) },
+
+	['RenderMarkdownH1Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
+	['RenderMarkdownH2Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
+	['RenderMarkdownH3Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
+	['RenderMarkdownH4Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
+	['RenderMarkdownH5Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
+	['RenderMarkdownH6Bg'] = { bg = color_ops.LightenDarkenColor(colors.slateblue500, -10)},
 
 	-- TODO make heading markers grey
-	["@markup.heading"] = { fg = colors.grey500 }, -- headings, titles (including markers)
+	["@markup.heading"] = { fg = colors.orange }, -- headings, titles (including markers)
 
 	["@markup.quote"] = { fg = colors.slateblue800 }, -- block quotes
 	["@markup.math"] = { fg = colors.slateblue800 }, -- math environments (e.g. `$ ... $` in LaTeX)
