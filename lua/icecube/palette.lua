@@ -97,7 +97,7 @@ return {
 	ModeMsg = { fg = palette.slateblue650 },
 	MoreMsg = { fg = palette.seagreen600 },
 	MsgSeparator = { bg = palette.grey500, fg = palette.black200 },
-	NonText = { fg = palette.slateblue400 },
+	NonText = { fg = palette.slateblue100 },
 	Normal = { bg = palette.black200, fg = palette.grey800 },
 	NormalFloat = { bg = palette.slateblue100, fg = palette.grey800 },
 	Operator = { fg = palette.slateblue400 },
