@@ -23,6 +23,16 @@ return {
 	-- TODO make heading markers grey
 	["@markup.heading"] = { fg = colors.orange }, -- headings, titles (including markers)
 
+    -- ["@punctuation.special.markdown"] = { fg = palette},
+    ["RenderMarkdownDash"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote1"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote2"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote3"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote4"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote5"] = { fg = colors.slateblue500 },
+    ["RenderMarkdownQuote6"] = { fg = colors.slateblue500 },
+
+
 	["@markup.quote"] = { fg = colors.slateblue800 }, -- block quotes
 	["@markup.math"] = { fg = colors.slateblue800 }, -- math environments (e.g. `$ ... $` in LaTeX)
 	["@markup.environment"] = { fg = colors.slateblue800 }, -- environments (e.g. in LaTeX)
